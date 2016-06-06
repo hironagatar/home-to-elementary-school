@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "自宅",
+        "_markerType": "Icon",
+        "_iconUrl": "http://cyberjapandata.gsi.go.jp/portal/sys/v4/symbols/080.png",
+        "_iconSize": [
+          20,
+          20
+        ],
+        "_iconAnchor": [
+          10,
+          10
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6152663230896,
+          35.72767979211213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "学校",
+        "_color": "#ff0000",
+        "_opacity": 0.95,
+        "_weight": 3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.61524486541748,
+            35.72769721148111
+          ],
+          [
+            139.61527168750763,
+            35.727836566295686
+          ],
+          [
+            139.619300365448,
+            35.72764930820728
+          ]
+        ]
+      }
+    }
+  ]
+}
